@@ -74,3 +74,7 @@ def sphere_volume(radius)
 
   return (4.0/3.0)*Math::PI*(radius**3)
 end
+
+def fahr_to_cels(temp)
+return (temp - 32.0) * 5.0/9.0
+end
